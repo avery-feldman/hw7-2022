@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
 	console.log("Good job opening the window")
 	video.autoplay = false;
 	video.loop = false;
-	// not done - how do u intitialize the video element
+	
 });
 
 document.querySelector("#play").addEventListener("click", function() {
@@ -14,7 +14,6 @@ document.querySelector("#play").addEventListener("click", function() {
 	video.play();
 	document.querySelector("#volume").innerHTML = video.volume*100 + "%"
 
-	// not done
  });
 
  document.querySelector("#pause").addEventListener("click", function() {
@@ -40,7 +39,6 @@ document.querySelector("#skip").addEventListener("click", function() {
 	}
 	console.log(video.currentTime);
 
-	// look over
 });
 
 document.querySelector("#mute").addEventListener("click", function() {

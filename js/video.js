@@ -38,6 +38,8 @@ document.querySelector("#skip").addEventListener("click", function() {
 	} else {
 		video.currentTime = 0
 	}
+	console.log(video.currentTime);
+
 	// look over
 });
 

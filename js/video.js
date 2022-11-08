@@ -1,8 +1,8 @@
-let video = document.querySelector("#player1");
+var video;
 
 
 window.addEventListener("load", function() {
-	let video = document.querySelector("#player1");
+	video = document.querySelector("#player1");
 	console.log("Good job opening the window")
 	video.autoplay = false;
 	video.loop = false;
